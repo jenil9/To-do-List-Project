@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="add-task-div">
+            <div class="add-task-div-head"><h2>ADD NEW TASK</h2></div>
+            <div class="add-task-div-body"><input type="text" id="task" placeholder="Task">
+                <select id="priority">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+              <button id="add-task-btn"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button></div>
+            
+        </div>
+    </header>
+    <main>
+        <div class="main-high">
+            <div class="main-high-head"><h2>High Priority Task</h2></div>
+            <div class="main-high-body "></div>
+        </div>
+        <div class="main-medium">
+            <div class="main-medium-head"><h2>Medium Priority Task</h2></div>
+            <div class="main-medium-body "></div>
+        </div>
+        <div class="main-low">
+            <div class="main-low-head"><h2>Low Priority Task</h2></div>
+            <div class="main-low-body"></div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
